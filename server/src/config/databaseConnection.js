@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 let mongoDB;
 
 const setupDB = callback => {
-  const uri = 'mongodb://heroku_6b3qf1n0:heroku_6b3qf1n0@ds157325.mlab.com:57325/heroku_6b3qf1n0'
+  const uri = 'mongodb://gymapp:gymapp.01@ds157325.mlab.com:57325/heroku_6b3qf1n0'
   
   MongoClient.connect(
     uri,
