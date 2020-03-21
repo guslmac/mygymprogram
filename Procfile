@@ -1,1 +1,1 @@
-web: cd server && node ./server/src/index.js
+web: cd .\server\src\ && node index.js
